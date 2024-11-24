@@ -74,7 +74,7 @@ def clone_repository(repo_name):
     ).stdout.strip()
 
     # Construct the repository URL
-    repo_url = f"https://github.com/{username}/{repo_name}.git"
+    repo_url = f"https://github.com/{repo_name}.git"
     print(f"Cloning repository: {repo_url}")
 
     # Check if the directory already exists
